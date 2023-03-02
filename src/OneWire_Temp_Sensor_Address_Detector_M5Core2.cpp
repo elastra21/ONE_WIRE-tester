@@ -14,9 +14,7 @@ DeviceAddress Thermometer;
 
 int deviceCount = 0; 
 
-void setup(void)
-{
-  // start serial port
+void setup(void){
   Serial.begin(115200);
   M5.begin();
   M5.Lcd.begin();
